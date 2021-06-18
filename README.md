@@ -7,3 +7,7 @@
 
 - Type Inference:
   -- TypeScript makes typing a bit easier and a lot less explicit by the usage of type inference. Even if you don’t explicitly type the types, they are still there to save you from doing something which otherwise would result in a run-time error.
+  
+## For react
+- ```npx create-react-app my-app --template typescript```
+- Browsers don't know how to run typescript code - we need compiler to transfer typescript code to javascript code. You see ```tsconfig.json``` in ```my-app``` folder which converts TS to regular JS.
