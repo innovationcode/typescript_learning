@@ -29,7 +29,10 @@ Currently, there are two ways you can build React native apps, either using the 
 
 ### Create Components of the App
 - Similar to React, everything here is a component. Everything you see here is a separate component that has been combined to create a complete mobile application. The following are the components that we will be creating for this application:
-- ```diff -App```
+- 
+```diff 
+-App
+```
     - This component will act as a container for all the other components to come together and provide a complete application
 - ```diff -Header```
     - As the name suggests, this component will be the header of the mobile application
