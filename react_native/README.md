@@ -17,11 +17,11 @@ Currently, there are two ways you can build React native apps, either using the 
 ### TO-Do app using EXPO-CLI
 
 - 1. ```npm install expo-cli --global``` or ```npm install -g expo-cli``
-- 2. ```expo init todo-app``` Need to use ```cmd``` for ```cli``` commands not ```git bash```. If want to use ```git bash``` 
-you need to pass 2 arguments: name and template 
-    ```expo init <project-name> --template <one-of-the-predefined-templates> --name <AppName>```
-    For e.g. to create todo-app using ```git bash``` enter
-    ```expo init todo-app --template blank --name TodoApp```
+- 2. ```expo init todo-app``` Need to use ```cmd``` for ```cli``` commands not ```git bash```. <br>
+        If want to use ```git bash``` you need to pass 2 arguments: name and template <br>
+        ```expo init <project-name> --template <one-of-the-predefined-templates> --name <AppName>```<br>
+        For e.g. to create todo-app using ```git bash``` enter <br>
+        ```expo init todo-app --template blank --name TodoApp```
 
 - 3. ```cd todo-app```
 - 4. ```npm start```
