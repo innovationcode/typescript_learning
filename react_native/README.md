@@ -16,8 +16,13 @@ Currently, there are two ways you can build React native apps, either using the 
 
 ### TO-Do app using EXPO-CLI
 
-- 1. ```npm install Expo-cli --global```
-- 2. ```expo init todo-app```
+- 1. ```npm install expo-cli --global``` or ```npm install -g expo-cli``
+- 2. ```expo init todo-app``` Need to use ```cmd``` for ```cli``` commands not ```git bash```. If want to use ```git bash``` 
+you need to pass 2 arguments: name and template 
+    ```expo init <project-name> --template <one-of-the-predefined-templates> --name <AppName>```
+    For e.g. to create todo-app using ```git bash``` enter
+    ```expo init todo-app --template blank --name TodoApp```
+
 - 3. ```cd todo-app```
 - 4. ```npm start```
 
@@ -29,16 +34,13 @@ Currently, there are two ways you can build React native apps, either using the 
 
 ### Create Components of the App
 - Similar to React, everything here is a component. Everything you see here is a separate component that has been combined to create a complete mobile application. The following are the components that we will be creating for this application:
-- 
-```diff 
--App
-```
+- ```App```
     - This component will act as a container for all the other components to come together and provide a complete application
-- ```diff -Header```
+- ```Header```
     - As the name suggests, this component will be the header of the mobile application
-- ```diff -Display Image```
+- ```Display Image```
     - This component is used here to display the image on the main screen
-- ```diff -To-do Item```
+- ```To-do Item```
     - Each task added is a separate component 
-- ```diff -To-do Input```
+- ```To-do Input```
     - This component is used to add tasks to the application
